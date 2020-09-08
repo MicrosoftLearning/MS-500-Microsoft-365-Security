@@ -89,19 +89,19 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 27. In the **Release preferences** window, select **Select users**.
 
-28. In the **Choose users for targeted release** window, in the list of users, select the **MOD Administrator** and then select **Save**.
+28. In the **Choose users for targeted release** window, select the empty box under **Who should receive targeted releases?**, select the **MOD Administrator** in the list of users, and then select **Save**.
 
-29. Close the **Release preferences** window, this returns you to the **Settings** window.
+29. Close the **Release preferences** window, this returns you to the **Org settings** window.
 
 30. Select **Custom themes**.
 
-31. In the **Customize themes** window, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color. Go ahead and explore some different options for your tenant. Make any changes that you wish. <br/>
+31. In the **Customize themes** window, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color. Go ahead and explore some different options for your tenant. Make any changes that you wish.
 
     **Note:** Some colors patterns aesthetically distract users. Avoid using high contrasting colors together, such as neon colors and high-resolution colors like white and bright pink.
 
-32. Once you’re done exploring and making any further changes, select **Save** and then **Close**.
+32. Once you’re done exploring and making any further changes, select **Save** and then close the **Custom themes** window.
 
-33. Remain logged into the domain controller VM and in Internet Explorer, leave your Microsoft 365 admin center tab and all tabs open for the remaining tasks. 
+33. Remain logged into the domain controller VM with the Microsoft 365 admin center open in your browser for the next task. 
  
 
 
@@ -170,7 +170,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 Azure Active Directory is needed to perform several configuration steps when installing Microsoft 365. These steps are performed using Windows PowerShell. However, before you can use PowerShell to access Azure AD, you must first install the Windows PowerShell modules that enable you to access Azure AD through PowerShell. In this task, you will prepare for using Azure AD by installing those PowerShell modules.
 
-1. On the LON-DC1 VM, in Internet Explorer, enter the following URL in the address bar: **http://aka.ms/AA70s3f**   
+1. On the LON-DC1 VM, open a new tab in the browser and enter the following URL in the address bar: **http://aka.ms/AA70s3f**   
 
     ‎This will take you to the **Microsoft Download Center** for the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW.**
 
@@ -186,7 +186,7 @@ Azure Active Directory is needed to perform several configuration steps when ins
 
 7. On the **Completed the Microsoft Online Services Sign-in Assistant Setup Wizard** page, select **Finish**. 
 
-8. Close this tab in Internet Explorer. 
+8. Close this tab in the browser. 
 
 9. Open **Windows PowerShell** by performing the following steps:
 
@@ -204,7 +204,7 @@ Azure Active Directory is needed to perform several configuration steps when ins
 
 13. Once the installation is complete, the screen will return to the Windows PowerShell command prompt.
 
-14. You must then run the following command to install the Azure AD PowerShell module that you just retrieved in the earlier step:
+14. You must then run the following command to install the Azure AD PowerShell for Graph module:
 
 	**Install-Module AzureADPreview**   
 	
@@ -233,7 +233,7 @@ In this task, you will turn on Information Rights Management (IRM) for SharePoin
 
 6. On the **Settings** page, scroll down to the **Information Rights Management (IRM)** section, select the **Use the IRM service specified in your configuration**, select the **Refresh IRM Settings** button, and then scroll down to the bottom of the page and select **OK**. 
 
-7. Do NOT close the SharePoint admin center tab in your Edge browser. Leave your browser open for the next task.
+7. Do NOT close the SharePoint admin center tab in your browser. Leave your browser open for the next task.
 
 ### Task 6 – Turn on Audit Logging to enable Alert Policies
 
@@ -241,7 +241,7 @@ In a later lab, you will create Alert Policies using the Security and Compliance
 
 1. You should still be logged into your domain controller 1 VM as the **LON-DC1\admin** account, and you should be logged into Microsoft 365 as **MOD Administrator**.
 
-2. In your browser, enter the following URL in the address bar: **https://protection.office.com**.
+2. In your browser, open a new tab and enter the following URL in the address bar: **https://protection.office.com**.
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane, select **Search**, and then under it, select **Audit log search**.
 
