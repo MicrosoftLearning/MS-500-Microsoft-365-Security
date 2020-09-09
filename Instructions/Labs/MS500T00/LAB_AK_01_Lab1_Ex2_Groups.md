@@ -29,11 +29,11 @@ In this task, you will create two new groups and then manage the groups by assig
 
 8. If a survey window appears, select **Cancel**.
 
-9. In the **Microsoft 365 admin center**, select **Groups** in the left navigation pane, and then under it, select **Groups**. 
+9. In the **Microsoft 365 admin center**, select **Groups** in the left navigation pane, and then under it, select **Active groups**. 
 
 10. In the **Groups** page, select **Add a group** that appears on the menu bar above the list of groups.  
 
-11. In the **Choose a group type** window, select **Office 365 (recommended)** and then select **Next**. 
+11. In the **Choose a group type** window, select **Microsoft 365 (recommended)** and then select **Next**. 
 
 12. In the **Set up the basics** window, enter **Inside Sales** in the **Name** field, and then enter **Collaboration group for the Inside Sales team.** in the **Description** field. Select **Next**.
 
@@ -56,7 +56,7 @@ In this task, you will create two new groups and then manage the groups by assig
 
 	- Name: **IT Admins**
 
-	- Description: **IT administrative personnel**<br/>
+	- Description: **IT administrative personnel**
 
 	**Note:** there is no owner, email address, or privacy setting for Security groups
 
@@ -129,7 +129,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 		
 4. Leave your Windows PowerShell window open for the next exercise; simply minimize the PowerShell window for now.
 
-5. You should now validate that the **Inside Sales** group has been recovered. To do this, go to the **Microsoft 365 Admin Center** in your Internet Explorer browser, select **Groups** from the left-hand navigation pane, and then under it select **Groups** to display the list of groups. 
+5. You should now validate that the **Inside Sales** group has been recovered. To do this, go to the **Microsoft 365 Admin Center** in your Internet Explorer browser, select **Groups** from the left-hand navigation pane, and then under it select **Active groups** to display the list of groups. 
 
 6. Verify that the **Inside Sales** group has been restored and is present in the list of groups. If the Inside Sales group does not appear, wait a minute or two and then select the **Refresh** icon to the right of the URL in Internet Explorer.
 
