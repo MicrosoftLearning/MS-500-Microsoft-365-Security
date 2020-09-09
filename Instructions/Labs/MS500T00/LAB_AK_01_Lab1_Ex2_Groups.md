@@ -139,7 +139,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 9. Close the **Inside Sales** window.
 
-10. Leave your browser windows open so that they’re ready for the next task. 
+10. Close all windows. 
 
 
 # End lab
