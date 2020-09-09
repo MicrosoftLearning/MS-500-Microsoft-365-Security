@@ -45,37 +45,43 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 4.  On the **Microsoft** page, select on the **Allan** account in the top right corner, and then select **Profile**.
 
-5.  Select **Set up self service password reset**.
+5.  On the **Profile** page, select **Edit security info**.
 
-6.  On the **confirm your current password** page, if it appears, select **re-enter my password**, enter the password assigned by your lab hoster and select **Sign in**.
+6.  On the **Security info** page, select **+ Add method**.
 
-7.  On the **don’t lose access to your account** page, select **Set it up now** for the **Authentication Phone** option.
+7.  On the **confirm your current password** page, if it appears, select **re-enter my password**, enter the password assigned by your lab hoster and select **Sign in**.
 
-8.  Choose your **country or region**, type your **mobile phone number**, and then select **text me**.
+8.  On the **Add a method** window, select **Phone** and then select **Add**.
 
-9.  Type the number that you receive in a text message in the text box below, and then select **verify**.
+9.  On the **Phone** window, choose your **country or region**, type your **mobile phone number**, select the **Text me a code** radio button, and then select **Next**.
 
-10. Select **Set it up now** for the **Authentication Email** option. Type your email address that you easily access. Select **email me**.
+10.  Type the number that you receive in the text message in the text box below **Enter the code below.**, select **Next** and then select **Done**.
 
-    _Note: you will need to use an e-mail address other than the tenant domain 
-    provided for this lab. If one is not available, you can skip the e-mail 
-    verification and continue with the next step._
+11. On the **Security info** page, select **+ Add method**. 
 
-9. Sign in to your email account, read the code, type it in the verification field, and then select **Verify**. 
+12. On the **Add a method** window, select **Email** and then select **Add**.
+
+13. On the **Email** window, type your email address that you can easily access and select **Next**.
+
+    _Note: you will need to use an e-mail address other than the tenant domain provided for this lab. If one is not available, you can skip the e-mail verification and continue with the next step._
+
+14. Sign in to your email account, read the code, type it in the **Enter code** verification field, and then select **Next**. 
     
     _Note: If you don’t find a message with a code in your inbox, check the junk folder._
 
-10. On the line for **Security Questions are not setup**, select **Set it up now**. Choose the three security questions and enter in any answer. Select **Save answers**.
+15. On the **Security info** page, select **+ Add method**.
 
-11. On the **don’t lose access to your account!** page, select **Finish**.
+16. On the **Add a method** window, select **Security questions** and then select **Add**.
 
-12. On the **Microsoft** page, select on the **Allan** account, and then select **Profile**.
+17. On the line for **Security questions** window, select the three questions you chose in the previous steps and enter in any answers. Select **Done**.
 
-13. In the portal, select **Change password**.
+18. On the **My Sign-ins** page, select on the **Allan** account, and then select **View my account**.
 
-14. On the **change password** page, in the **Old password** text box, type Allan's password assigned by your lab hoster, in the **Create new password** and the **Confirm new password** text boxes, type **Pa55w.rd** and then select **Submit**.
+19. On the **Profile** page, select **Change password**.
 
-15. Wait until the Microsoft Azure profile portal appears, and then close the Microsoft Edge browser window.
+20. On the **change password** page, in the **Old password** text box, type Allan's password assigned by your lab hoster, in the **Create new password** and the **Confirm new password** text boxes, type **Pa55w.rd1234** and then select **Submit**.
+
+21. Wait until the Microsoft Azure profile portal appears, and then close the Microsoft Edge browser window.
 
 # Continue to Exercise 2
 
