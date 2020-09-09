@@ -21,7 +21,7 @@ In this task, you will create two new groups and then manage the groups by assig
 
 4. In the **Sign in** window, enter **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**.
 
-5. In the **Enter password** window, enter **Pa55w.rd1234** and then select **Sign in**.
+5. In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in**.
 
 6. If a **Get your work done with Office 365** window appears, select the **X** to close it. 
 
