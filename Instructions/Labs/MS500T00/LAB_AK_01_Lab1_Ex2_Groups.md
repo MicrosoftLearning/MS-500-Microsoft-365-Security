@@ -5,7 +5,7 @@ In the following lab exercise, you will take on the role of Holly Dickson, Adatu
 **Note:** The VM environment provided by your lab hosting provider comes with ten existing Microsoft 365 user accounts, as well as a number of existing on-premises user accounts. Several of these existing user accounts will be used throughout the labs in this course. This will save you from having to perform the tedious task of creating user accounts, which is typically not a task performed by Security Administrators. It will also provide you with the experience of creating a Microsoft 365 user account in case you are not familiar with the process.
 
 
-### Task 2 – Create and Manage Groups  
+### Task 1 – Create and Manage Groups  
 
 In this task, you will begin implementing Adatum’s Microsoft 365 pilot project as Holly Dickson, Adatum’s new Security Administrator. Therefore, you will begin this task by logging out of Microsoft 365 as the MOD Administrator and you will log back in as Holly.<br/>
 
@@ -95,7 +95,7 @@ In this task, you will create two new groups and then manage the groups by assig
 33. Remain logged into the domain controller VM with the Microsoft 365 admin center open in your browser for the next task.
 
 
-### Task 3 – Recover Groups using PowerShell 
+### Task 2 – Recover Groups using PowerShell 
 
 In this task, you will use Windows PowerShell to recover the Inside Sales group that you previously deleted. To use Windows PowerShell to perform this Azure AD-related task, the Windows Azure Active Directory PowerShell Module must be installed. 
 
