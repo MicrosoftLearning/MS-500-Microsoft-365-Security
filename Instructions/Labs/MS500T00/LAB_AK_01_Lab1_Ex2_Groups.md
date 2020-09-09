@@ -1,6 +1,6 @@
 # Module 1 - Lab 1 - Exercise 2 - Manage users and groups 
 
-In the following lab exercise, you will take on the role of Holly Dickson, Adatum Corporation’s Security Administrator. In this exercise, you will perform several user and group management functions within Microsoft 365. You will create two Office 365 groups and assign existing Microsoft 365 users as members of those groups. You will then delete one of the groups and then use PowerShell to recover the deleted group.
+In the following lab exercise, you will take on the role of Holly Dickson, Adatum Corporation’s Security Administrator. In this exercise, you will perform several user and group management functions within Microsoft 365. You will create two groups in Office 365 and assign existing Microsoft 365 users as members of those groups. You will then delete one of the groups and then use PowerShell to recover the deleted group.
 
 **Note:** The VM environment provided by your lab hosting provider comes with ten existing Microsoft 365 user accounts, as well as a number of existing on-premises user accounts. Several of these existing user accounts will be used throughout the labs in this course. This will save you from having to perform the tedious task of creating user accounts, which is typically not a task performed by Security Administrators. It will also provide you with the experience of creating a Microsoft 365 user account in case you are not familiar with the process.
 
@@ -9,7 +9,7 @@ In the following lab exercise, you will take on the role of Holly Dickson, Adatu
 
 In this task, you will begin implementing Adatum’s Microsoft 365 pilot project as Holly Dickson, Adatum’s new Security Administrator. Therefore, you will begin this task by logging out of Microsoft 365 as the MOD Administrator and you will log back in as Holly.<br/>
 
-In this task, you will create two new groups and then manage the groups by assigning users to them. One group will be an Office 365 group and the other a Security group; this will enable you to see some of the differences in the two types of groups. After creating the groups, you will then delete one of them. This will set up the next task, which examines how to recover a deleted group using Windows PowerShell.
+In this task, you will create two new groups and then manage the groups by assigning users to them. One group will be a Microsoft 365 group and the other a Security group; this will enable you to see some of the differences in the two types of groups. After creating the groups, you will then delete one of them. This will set up the next task, which examines how to recover a deleted group using Windows PowerShell.
 
 1. You should still be logged into your domain controller 1 VM as the **LON-DC1\admin** account, and you should be logged into Microsoft 365 as **MOD Administrator**. On the **Microsoft 365 admin center** tab, select the user icon for the **MOD Administrator** (the **MA** circle) in the upper right corner of your browser, and in the **My account** pane, select **Sign out.** <br/>
 	
