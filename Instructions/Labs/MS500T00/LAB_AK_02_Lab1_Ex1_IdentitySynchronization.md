@@ -21,8 +21,10 @@ You are Holly Dickson the security administrator for Adatum Corporation, and you
 1.	Open your browser and go to https://portal.office.com/   
 2.	Sign in as **holly@M365xZZZZZZ.onmicrosoft.com** with the password **Pa55w.rd** .    
 3.	Click **Admin** to go to the Microsoft 365 admin center.
-4.	If asked about **update your admin contact information **click the Cancel button to skip this request.  
-	**Note:** If you see the Active Directory synchronization is being activated warning, you can ignore it at this time, but you will not be able to run directory synchronization later in this exercise. You must wait until directory synchronization is activated. However, you can complete the following steps, even if you do see the warning message.  
+4.	If asked about **update your admin contact information** click the **Cancel** button to skip this request.
+
+	  **Note:** If you see the Active Directory synchronization is being activated warning, you can ignore it at this time, but you will not be able to run directory synchronization later in this exercise. You must wait until directory synchronization is activated. However, you can complete the following steps, even if you do see the warning message.
+
 5.	In the left navigation, select **users** icon and select **Active users**, click on the ellipses at the top menu and choose **Directory Synchronization**.   
 6.	Click on the **Go to the Download center to get the Azure AD Connect tool**.   Download and Run the download once prompted.
     
