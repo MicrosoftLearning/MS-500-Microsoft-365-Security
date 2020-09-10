@@ -12,7 +12,9 @@ In this lab, you will learn how to use Azure Privileged Identity Management (PIM
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
-1.  Click consent to PIM if it appears. In some tenants PIM is already enabled and therefore these steps are unnecessary.
+1.  Click **Consent to PIM**. 
+
+      **NOTE**: If **Consent to PIM** does not appear, PIM is already enabled and therefore the steps in this exercise are unnecessary. Skip to the next exercise.
 
      ![Screenshot](../Media/5943cd1d-f6e6-4ccc-921b-e1105af7bdf9.png)
 
