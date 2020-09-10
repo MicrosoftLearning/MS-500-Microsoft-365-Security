@@ -72,7 +72,9 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 	**Note:** You will be prohibited from logging in as Allan until after the **90 second lockout duration** that you set earlier. 
 
-22. After 90 seconds, try logging in again to verify that you can log in, using Allan's correct password: **Pa55w.rd1234**. 
+22. After 90 seconds, try logging in again to verify that you can log in, using Allan's correct password: **Pa55w.rd1234**.
+
+23. Sign out of the Azure portal and close all windows.
 
 # End of lab.
  
