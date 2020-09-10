@@ -83,7 +83,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
     ‎**Note:** One of the benefits of Office 365 is the ability to have the latest features and updates applied to your environment automatically, which can reduce maintenance costs and overhead for an organization. By setting up your Release preferences, you can control how and when your Office 365 tenant receives these updates.
 
-26. In the **Are you sure you want to change to Targeted release for select people** window, select **Yes.** if it appears.  <br/>
+26. In the **Are you sure you want to change to Targeted release for select people** window, select **Yes.** if it appears.
 
     **Note:** This option enables you to create a control group of users who will preview updates so that you can prepare the updates for your entire organization. The **Targeted release for everyone** option is more commonly used in development environments, where you can get updates early for your entire organization. In non-development environments, such as Adatum, targeted release to select people is the more typical preference as it enables an organization to control when it wants to make updates available to everyone once they’ve been reviewed by the control group.
 

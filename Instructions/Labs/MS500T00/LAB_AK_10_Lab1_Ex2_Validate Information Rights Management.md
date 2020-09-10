@@ -24,7 +24,7 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 11. Switch to the Client 2 VM (LON-CL2).
 
-14. On the taskbar, select the **Microsoft Edge** icon. In your **Edge** browser navigate to **https://portal.office.com**. In the **Pick an Account** window, if **Alex Wilber** is listed then select his username; otherwise, select **Use another account** and log in as **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) his password is probably the same as the MOD admin password for your tenant as set by your lab provider.<br/>
+14. On the taskbar, select the **Microsoft Edge** icon. In your **Edge** browser navigate to **https://portal.office.com**. In the **Pick an Account** window, if **Alex Wilber** is listed then select his username; otherwise, select **Use another account** and log in as **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) his password is probably the same as the MOD admin password for your tenant as set by your lab provider.
 
 15. In the **Office 365 home page**, select **Outlook**. 
 
@@ -107,7 +107,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 20. In the **Share ‘Marketing’** window, in the **Invite people** box, enter **Alex Wilber**. Select **Alex Wilber** that appears in a drop-down menu, and then select **Share**.
 
-25. Now that Holly has created this new SharePoint site and used IRM to restrict permissions on the site, she has asked Alex Wilber to test this site to validate whether IRM is working for SharePoint Online. Alex will perform this test on the Client 2 (LON-CL2) VM.<br/>
+25. Now that Holly has created this new SharePoint site and used IRM to restrict permissions on the site, she has asked Alex Wilber to test this site to validate whether IRM is working for SharePoint Online. Alex will perform this test on the Client 2 (LON-CL2) VM.
 
 	‎Switch to the **LON-CL2** VM, where you should still be logged into the Microsoft 365 admin center as Alex from the prior task.  
 

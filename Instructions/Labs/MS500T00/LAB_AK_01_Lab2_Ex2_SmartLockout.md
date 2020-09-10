@@ -10,7 +10,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 3. Maximize the **Group Policy Management** window, if necessary.
 
-4. You want to edit the group policy that includes your organization's account lockout policy. If necessary, in the root console tree, expand **Forest:Adatum.com**, then expand **domains**, and then expand **Adatum.com**.  <br/>
+4. You want to edit the group policy that includes your organization's account lockout policy. If necessary, in the root console tree, expand **Forest:Adatum.com**, then expand **domains**, and then expand **Adatum.com**.
 
 ‎Under **Adatum.com**, right-click on **Default Domain Policy** and then select **Edit** in the menu.
 
@@ -20,7 +20,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 7. In the **Account Policies** folder, select **Account Lockout Policy**.
 
-8. As you can see in the right pane, none of the smart lockout parameters have been defined. You are going to use the **Azure AD admin center** to assign these values.   <br/>
+8. As you can see in the right pane, none of the smart lockout parameters have been defined. You are going to use the **Azure AD admin center** to assign these values.
 
 ‎In **Internet Explorer**, open a new browser tab and go to (‌https://portal.azure.com).  Sign-in as Holly Dickson if you are not already signed in on another browswer tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
 
@@ -66,7 +66,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 20. In the **Sign in** window, enter **AllanD@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is the tenant suffix ID assigned to you by your lab hosting provider), and then select **Next**. 
 
-21. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access. <br/>
+21. On the **Enter password** window, enter any mix of letters and then select **Sign in**. Note the invalid password error message. Repeat this step 2 more times. Since you set the **Lockout threshold** to **3**, note the error message that you receive after the third attempt. Allan's account has been temporarily locked to prevent unauthorized access.
 
 	**Note:** You will be prohibited from logging in as Allan until after the **90 second lockout duration** that you set earlier. 
 
