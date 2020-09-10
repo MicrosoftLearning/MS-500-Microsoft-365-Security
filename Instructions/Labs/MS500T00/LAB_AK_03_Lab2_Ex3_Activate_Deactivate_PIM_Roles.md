@@ -20,15 +20,15 @@ When you need to take on an Azure AD directory role, you can request activation 
 1.  Click **Billing Administrator** and add Patti Fernandez back into the **Billing Administrators** role.
 
 
-1.  Open an **In Private** browsing session and navigate to **https://portal.azure.com** and login as **Patti** using her UPN. example PattiF@YourTenantHere.onmicrosoft.com with the password given by your lab hoster (hint: the password is likely the same as the MOD Administrator password).  
+1.  Open an **In Private** browsing session and navigate to **https://portal.azure.com** and login as **PattiF@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) with the password given by your lab hoster (hint: the password is likely the same as the MOD Administrator password).
+
+      **NOTE**: You may be required to setup MFA for Patti's account.
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
-1.  Click **Azure AD roles**.
-
-1.  Click **Quick start** and click **Activate your role**.
+1.  In the **Tasks** section, click **My roles**.
 
 1.  On the Billing Administrator role, scroll to the right and click **Activate**.
 
@@ -38,7 +38,7 @@ When you need to take on an Azure AD directory role, you can request activation 
  
 1.  Once returned to the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-1.  Select **Azure AD Roles** then click click **Activate your role** on the Quick start blade.
+1.  In the **Tasks** section, click **My roles**.
 
 1.  On the Billing Administrator role, scroll to the right and click **Activate**.
 
@@ -48,11 +48,11 @@ When you need to take on an Azure AD directory role, you can request activation 
 
      ![Screenshot](../Media/b17f972d-8df2-4b78-a361-202bab94dd17.png)
 
-By default, roles do not require approval unless configured explicitly in settings. 
+      By default, roles do not require approval unless configured explicitly in settings. 
 
- If the role does not require approval, it is activated and added to the list of active roles. If you want to use the role right away, follow the steps in the next section.
+      If the role does not require approval, it is activated and added to the list of active roles. If you want to use the role right away, follow the steps in the next section.
 
- If the role requires approval to activate, a notification will appear in the upper right corner of your browser informing you the request is pending approval.
+      If the role requires approval to activate, a notification will appear in the upper right corner of your browser informing you the request is pending approval.
 
 
 ### Task 2: Use a role immediately after activation
@@ -74,9 +74,7 @@ You can view the status of your pending requests to activate.
 
 1.  Still signed in as **Patti**, in the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-1.  Click **Azure AD Roles**.
-
-1.  Click **Pending requests** to see a list of your requests.
+1.  In the **Tasks** section, click **My requests**. If your request is awaiting approval, it will be listed here.
 
 
 ### Task 4: Deactivate a role
@@ -90,15 +88,13 @@ If you complete your administrator tasks early, you can also deactivate a role m
 
 1.  Still signed in as **Patti**, open Azure AD Privileged Identity Management.
 
-1.  Click **Azure AD roles**.
-
 1.  Click **My roles**.
 
      ![Screenshot](../Media/72435386-92e6-4cb7-9107-7adcc1198389.png)
 
 1.  Click **Active assignments** to see your list of active roles.
 
-1.  Find the role you're done using and then click **Deactivate**.
+1.  Find the role you're done using and then scroll right and click **Deactivate**.
 
      ![Screenshot](../Media/6360dbed-ceea-4139-8282-a95f2b26ebd2.png)
 
