@@ -52,6 +52,8 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 			- **Never4get!!**
 
+	- In the **Mode** section, select **Enforced**.
+
 14. Select **Save** on the menu bar at the top of the page.
 
 15. You should now test the banned password functionality. Select Holly Dicksons's user icon in the upper right corner of the screen and click **View account**, and in the menu that appears select **Change password**.
@@ -70,7 +72,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 	**Note:** You will be prohibited from logging in as Allan until after the **90 second lockout duration** that you set earlier. 
 
-22. After 90 seconds, try logging in again to verify that you can log in. 
+22. After 90 seconds, try logging in again to verify that you can log in, using Allan's correct password: **Pa55w.rd1234**. 
 
 # End of lab.
  
