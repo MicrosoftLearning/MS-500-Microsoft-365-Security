@@ -55,7 +55,7 @@ Follow these steps if you want to make a role assignment permanent.
 1.  Click **Refresh**.
 
 
-**Results**: The Billing Administrator role **End time** is now listed as **permanent** for Patti Fernandez.  In other words Patti has a permanently active assignment to the Billing Administrator role.
+**Results**: The Billing Administrator role eleigbility **End time** is now listed as **Permanent** for Patti Fernandez.  In other words Patti is permanently eligible to be elevated to the Billing Administrator role.
 
 
 ### Task 3: Remove a user from a role
