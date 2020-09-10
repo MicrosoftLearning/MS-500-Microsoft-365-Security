@@ -22,6 +22,7 @@ In this exercise you will configure a conditional access policy enabling Azure M
       * Group type; **Security**
       * Group Name: **MFA Pilot**
       * Group description: **MFA Pilot Group**
+      * Azure AD roles can be assigned to the group: **No**
       * Membership type: **Assigned**
       * Members: Select **Lynne Robbins**
   
