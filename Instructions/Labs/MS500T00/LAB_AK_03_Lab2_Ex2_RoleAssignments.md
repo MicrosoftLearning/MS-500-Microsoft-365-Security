@@ -13,15 +13,21 @@ In the following task you will make  a user eligible for an Azure AD directory r
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
-1.  Select **Roles**. If this is option is still greyed you may need to refresh your browser.
+1.  On the **Privileged Identity Management \| Quick start** screen, in the **Manage** section, select **Azure AD roles**. If this is option is still greyed you may need to refresh your browser.
+
+     ![Screenshot](../Media/NewPIMQuickStart.png)
+
+1.  On the **Adatum Corporation \| Quick start** screen, in the **Manage** section, select **roles**.
+
+     ![Screenshot](../Media/NewPIMAdatumQuickStart.png)
 
 1.  Select **Billing Administrator**.
 
 1.  Select **+ Add assignments** to open Select a member. In the Add assignments screen click **No member selected**.
 
-1.  In the **Select a member screen** select **Patti Fernandez** and then click **Select**.
+1.  In the **Select a member** screen select **Patti Fernandez** and then click **Select**.
 
-1.  In Add assignments screen on the Setting tab unmark the **Permanently eligible** checkbox. Click **Assign**.  Review the added member in the assignment window.
+1.  In the **Add assignments** screen on the **Setting** tab unmark the **Permanently eligible** checkbox. Click **Assign**.  Review the added member in the assignment window.
 
 1.  When the role is assigned, the user you selected will appear in the members list as **Eligible** for the role. 
 
@@ -32,7 +38,6 @@ In the following task you will make  a user eligible for an Azure AD directory r
 Follow these steps if you want to make a role assignment permanent.
 
 
-
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
      ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
@@ -41,9 +46,16 @@ Follow these steps if you want to make a role assignment permanent.
 
 1.  Click **Assignments**.
  
-1.  Click **Update** for Patti as Billing Administrator and then mark the **Permanently eligble** box.  In Membership settings click **Save**.
+1.  Click **Update** on the **Activity details** screen for Patti as Billing Administrator and then mark the **Permanently eligble** box.  In Membership settings click **Save**.
 
-**Results**: The Billing Administrator role is now listed as **permanent** for Patti Fernandez.  In other words Patti is permanently eligible to be elevated to the Billing Administrator role.
+      **NOTE**: You may need to scroll right to see the **Action** column on the Assignments screen.
+
+     ![Screenshot](../Media/NewPIMActivate.png)
+
+1.  Click **Refresh**.
+
+
+**Results**: The Billing Administrator role **End time** is now listed as **permanent** for Patti Fernandez.  In other words Patti has a permanently active assignment to the Billing Administrator role.
 
 
 ### Task 3: Remove a user from a role
@@ -63,7 +75,7 @@ You can remove users from role assignments, but make sure there is always at lea
 
 1.  Use the Member filter to again select Patti Fernandez.
  
-1.  In the Action area under Eligible assignments click **Remove**.
+1.  In the Action column under Eligible assignments click **Remove**.
  
 1.  In the message that asks you to confirm, click **Yes**. The role assignment will be removed.
 
