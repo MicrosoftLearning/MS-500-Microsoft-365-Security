@@ -63,7 +63,7 @@ When you activate a role in PIM, it can take up to 10 minutes before you can acc
 
 1.  Click **Sign Out**.
 
-1.  Log back in as Patti in the inPrivate browsing session.
+1.  Log back in as Patti in the InPrivate browsing session.
 
 
 ### Task 3: View the status of your requests
@@ -102,7 +102,7 @@ If you complete your administrator tasks early, you can also deactivate a role m
 
      ![Screenshot](../Media/deactivate.png)
 
-
+1.  Close the InPrivate browser window. 
 
 
 # Continue to exercise 4
