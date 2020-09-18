@@ -23,7 +23,9 @@ Microsoft Security center constantly reviews active recommendations and calculat
        ![Screenshot](../Media/SecureScore.png)
 
     
-      **Note**: The sum of the secure score of each subscription does not equal the overall secure score. The secure score is a calculation based on the      ratio between your healthy resources and your total resources per recommendation, not a sum of secure scores across your subscriptions. 
+         **Note**: The sum of the secure score of each subscription does not equal the overall secure score. The secure score is a calculation based on the      ratio between your healthy resources and your total resources per recommendation, not a sum of secure scores across your subscriptions. 
+
+       - Select **Microsoft Secure Score** at the top of the **Secure Score** card
 
 
 3.  Select **Improvement actions** to see the actions you can take to improve the secure score for that subscription.
