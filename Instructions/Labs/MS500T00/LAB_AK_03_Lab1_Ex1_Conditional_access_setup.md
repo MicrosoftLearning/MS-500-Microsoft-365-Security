@@ -61,7 +61,7 @@ In your policy, set:
 
     b. Click **Select**.
 
-    c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
+    c. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**. If needed, search for **Microsoft Azure Management**.
 
 
 11.  In the **Access controls** section, click **Grant**.
@@ -111,7 +111,7 @@ We will initialize the what if policy evaluation tool for:
 
     c. Click **Select**.
 
-    d. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**.
+    d. On the **Select** page, select **Microsoft Azure Management**, and then click **Select**. If needed, search for **Microsoft Azure Management**.
 
     e. On the cloud apps or actions page, select **Done**.
 
@@ -126,7 +126,7 @@ We will initialize the what if policy evaluation tool for:
 
 In the previous section, you have learned how to evaluate a simulated sign-in. In addition to a simulation, you should also test your conditional access policy to ensure that it works as expected. 
 
-To test your policy, open an in-private browsing session and try to sign-in to the Azure portal **`https://portal.azure.com`** using your **Patti Fernandez** account. You should see a dialog that requires you to set your account up for additional security verification.
+To test your policy, open an in-private browsing session and try to sign-in to the Azure portal **`https://portal.azure.com`** using your **Patti Fernandez** account. Patti's username is PattiF, use the tenant suffix and password provided by your lab hosting provider. You should see a dialog that requires you to set your account up for additional security verification.  Close your **InPrivate** browser.
 
 
 ## Continue to exercise 2.
