@@ -29,9 +29,9 @@ In this task, you will create two new groups and then manage the groups by assig
 
 8. If a survey window appears, select **Cancel**.
 
-9. In the **Microsoft 365 admin center**, select **Groups** in the left navigation pane, and then under it, select **Groups**. 
+9. In the **Microsoft 365 admin center**, select **Groups** in the left navigation pane, and then under it, select **Active Groups**. 
 
-10. In the **Groups** page, select **Add a group** that appears on the menu bar above the list of groups.  
+10. In the **Active Groups** page, select **Add a group** that appears on the menu bar above the list of groups.  
 
 11. In the **Choose a group type** window, select **Office 365 (recommended)** and then select **Next**. 
 
@@ -48,7 +48,7 @@ In this task, you will create two new groups and then manage the groups by assig
 
 16. On the **New group created** window, note the comment at the top of the page that it may take 5 minutes for the new group to appear in the list of groups. </br>
 
-	Select **Close**. This returns you to the **Groups** page. 
+	Select **Close**. This returns you to the **Active Groups** page. 
 
 17. Repeat steps 10-16 to add a new group with the following information:
 
@@ -60,11 +60,11 @@ In this task, you will create two new groups and then manage the groups by assig
 
 	**Note:** there is no owner, email address, or privacy setting for Security groups
 
-18. If either of the two new groups do not appear in the **Groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
+18. If either of the two new groups do not appear in the **Active Groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
 
 	**Note:** The IT admins group does not have a group email address because it's a Security group. Two additional group types are Mail-enabled Security groups and Distribution groups. We did not use either of these group types in this lab because it can take up to an hour for these two types of groups to appear in the Groups list; whereas, Office 365 groups and Security groups usually take just a matter of minutes to appear. 
 
-19. You’re now ready to add members to the groups. In the list of **Groups**, select the **Inside Sales** group, which opens a window for the group. 
+19. You’re now ready to add members to the groups. In the list of **Active Groups**, select the **Inside Sales** group, which opens a window for the group. 
 
 20. In the **Inside Sales** group window, select the **Members** tab.
 
@@ -80,13 +80,13 @@ In this task, you will create two new groups and then manage the groups by assig
 
 26. Repeat steps 19-25 to add **Isaiah Langer**, **Megan Bowen**, and **Nestor Wilke** as members of the **IT admins** group.
 
-27. You now want to test the effect of deleting a group. In the list of **Groups,** select the vertical ellipsis icon (**More actions**) that appears to the right of the **Inside Sales** group. In the menu box that appears, select **Delete group**. 
+27. You now want to test the effect of deleting a group. In the list of **Active Groups,** select the vertical ellipsis icon (**More actions**) that appears to the right of the **Inside Sales** group. In the menu box that appears, select **Delete group**. 
 
 28. In the **Delete Inside Sales** window, select the **Delete group** button.
 
 29. Once the group is deleted, select **Close**. 
 
-30. This will return you to the list of **Groups** in the **Microsoft 365 admin center**. The **Inside Sales** group should no longer appear. If the Inside Sales group still displays, wait a couple of minutes and then select the **Refresh** option on the menu bar. The updated **Groups** list should no longer include the Inside Sales group.
+30. This will return you to the list of **Active Groups** in the **Microsoft 365 admin center**. The **Inside Sales** group should no longer appear. If the Inside Sales group still displays, wait a couple of minutes and then select the **Refresh** option on the menu bar. The updated **Active Groups** list should no longer include the Inside Sales group.
 
 31. To verify whether deleting this group affected any of its owners or members, select **Users** and then **Active Users** in the left navigation pane. 
 
@@ -129,7 +129,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 		
 4. Leave your Windows PowerShell window open for the next exercise; simply minimize the PowerShell window for now.
 
-5. You should now validate that the **Inside Sales** group has been recovered. To do this, go to the **Microsoft 365 Admin Center** in your Internet Explorer browser, select **Groups** from the left-hand navigation pane, and then under it select **Groups** to display the list of groups. 
+5. You should now validate that the **Inside Sales** group has been recovered. To do this, go to the **Microsoft 365 Admin Center** in your Internet Explorer browser, select **Groups** from the left-hand navigation pane, and then under it select **Active Groups** to display the list of groups. 
 
 6. Verify that the **Inside Sales** group has been restored and is present in the list of groups. If the Inside Sales group does not appear, wait a minute or two and then select the **Refresh** icon to the right of the URL in Internet Explorer.
 
