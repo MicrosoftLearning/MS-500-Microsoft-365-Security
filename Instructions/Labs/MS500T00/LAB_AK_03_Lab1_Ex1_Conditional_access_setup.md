@@ -128,5 +128,14 @@ In the previous section, you have learned how to evaluate a simulated sign-in. I
 
 To test your policy, open an in-private browsing session and try to sign-in to the Azure portal **`https://portal.azure.com`** using your **Patti Fernandez** account. You should see a dialog that requires you to set your account up for additional security verification.
 
+### Task 4: Change your conditional access policy
+
+1. In the Azure portal, on the hub menu go to Azure Active Directory by using More Services to search if necessary.
+
+2. On the left click **Security** and then select **Conditional Access.**
+
+3. Select the **Require MFA for Azure Portal Access**
+
+4. Select the **Off** option then click **Save**
 
 ## Continue to exercise 2.
