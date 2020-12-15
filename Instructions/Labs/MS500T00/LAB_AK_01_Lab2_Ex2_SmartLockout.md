@@ -28,7 +28,7 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 11. In the **Security | Getting started** window, in the middle pane under the **Manage** section, select **Authentication Methods**.
 
-12. In the **Authentication methods | Authentication method policy (Preview)** page, in the middle pane under the **Manage** section, select **Password protection.**
+12. In the **Authentication methods | Authentication method policy** page, in the middle pane under the **Manage** section, select **Password protection.**
 
 13. In the **Authentication methods | Password protection** window, in the detail pane on the right, enter the following information:
 
@@ -58,9 +58,9 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 16. A new tab will open displaying the **change password** window. Enter **Pa55w.rd** in the **Old password** field, enter **Never4get!!** in the **Create new password** and **Confirm new password** fields, and then select **submit**. Note the error message that you receive.
 
-17. In your browser, close the **Change password** tab. 
+17. In your browser, close the tab displaying the error message. 
 
-18. You should now test the lockout threshold functionality. In the **My Dashboard - Azure Active Directory admin center** tab, select Holly Dicksons's user icon in the upper right corner of the screen, and in the menu that appears select **Sign out**. 
+18. You should now test the lockout threshold functionality. In the **Authentication Methods** tab in your browser, select Holly Dicksons's user icon in the upper right corner of the screen, and in the menu that appears select **Sign out**. 
 
 19. Once you are signed out as Holly, the **Pick an account** window will appear. Select **Use another account**. 
 
