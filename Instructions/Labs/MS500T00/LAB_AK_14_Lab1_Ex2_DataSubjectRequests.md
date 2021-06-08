@@ -55,7 +55,7 @@ You have created a data subject request and you have searched for the personal i
 
 When someone files a DSR, you typically need to export the results. In this task, Holly will export the DSR report for the previous case for further processing.
 
-1. The **Holly Dickson Subject Request** window should still be open after having finished the previous task. In this window, select **More > Export report** at the top of the page.
+1. The **Holly Dickson Subject Request** window should still be open after having finished the previous task. In this window, select **Export report** at the top of the page.
 
 1. In the **Export report** window, select the option that states: **All items, including ones that have unrecognized format, are encrypted, or weren’t indexed for other reasons**.
 
