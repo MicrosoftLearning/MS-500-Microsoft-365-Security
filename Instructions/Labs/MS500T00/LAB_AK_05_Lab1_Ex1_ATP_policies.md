@@ -22,7 +22,7 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 8. Select the **+ Create** to add a new recipient policy.
 
-9. On the **Name your policy** pane, enter `All company users` in the **Name** field. Click **Next**.
+9. On the **Name your policy** pane, enter a unique name to your lab session `Unique Name` in the **Name** field. Click **Next**.
 
 10. On the **Users and domains** pane, enter `All Company`in the **Group** field, select it from the list. Click **Next**.
 
